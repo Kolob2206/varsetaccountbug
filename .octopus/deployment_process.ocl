@@ -2,8 +2,9 @@ step "azure script cac library var set" {
 
     action {
         properties = {
+            Octopus.Action.RunOnServer = "false"
             Octopus.Action.Template.Id = "ActionTemplates-1195"
-            Octopus.Action.Template.Version = "0"
+            Octopus.Action.Template.Version = "1"
         }
         worker_pool_variable = ""
     }
