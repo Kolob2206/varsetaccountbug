@@ -1,0 +1,10 @@
+step "azure script cac library var set" {
+
+    action {
+        properties = {
+            Octopus.Action.Template.Id = "ActionTemplates-1195"
+            Octopus.Action.Template.Version = "0"
+        }
+        worker_pool_variable = ""
+    }
+}
